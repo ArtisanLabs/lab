@@ -4,24 +4,30 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 214, 219, 220;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
+    --background-start-rgb: 2, 2, 61;
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+/* 
+ * The body styling is defined here.
+ * The color property sets the text color using the RGB values defined in the --foreground-rgb variable.
+ * The background property sets a linear gradient background. 
+ * The gradient starts from the top (transparent) and transitions to the color defined in the --background-end-rgb variable.
+ * The final color of the gradient is the color defined in the --background-start-rgb variable.
+ */
 body {
-  color: rgb(var(--foreground-rgb));
+  color: rgb(var(--foreground-rgb)); /* Set the text color */
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
+      to bottom, /* Gradient direction from top to bottom */
+      transparent, /* Start color of the gradient */
+      rgb(var(--background-end-rgb)) /* End color of the gradient */
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); /* Final color of the gradient */
 }
