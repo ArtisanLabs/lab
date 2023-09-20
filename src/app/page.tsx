@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import CitySection from '@/components/CitySection'
 
 export const runtime = 'edge';
 
@@ -28,16 +29,7 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div id="city" className="relative flex place-items-center">
-        <Image
-          className="opacity-100 relative drop-shadow-[0_0_0.3rem_#ffffff70] light:invert"
-          src="https://raw.githubusercontent.com/ArtisanLabs/.github/main/profile/assets/images/banners/transparent/arpagon__voice_waveforms_diagram_complete_city.webp"
-          alt="ArtisanLabs City"
-          width={1260}
-          height={630}
-          priority
-        />
-      </div>
+      <CitySection />
       {/* Demo Sections */}
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left space-x-4">
         <a
