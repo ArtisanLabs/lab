@@ -10,7 +10,7 @@ export const CitySection = () => {
             <div id="city" className="relative flex place-items-center">
                 <Image
                     className="opacity-100 relative drop-shadow-[0_0_0.3rem_#ffffff70] light:invert"
-                    src="https://raw.githubusercontent.com/ArtisanLabs/.github/main/profile/assets/images/banners/transparent/arpagon__voice_waveforms_diagram_complete_city.webp"
+                    src="/assets/images/values/arpagon__voice_waveforms_diagram_complete_city.webp"
                     alt="ArtisanLabs City"
                     width={1260}
                     height={630}

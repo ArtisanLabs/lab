@@ -8,7 +8,7 @@ export const ValuesSection = () => {
             <div className="w-1/2">
                 <Image 
                     className="w-full h-auto light:invert" 
-                    src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/banners/transparent/arpagon__The_Starry_Night_Vincent_van_Gogh_black_background_dia_f94eed6c-4c0a-4d0c-926d-c223be873627.webp" 
+                    src="/assets/images/values/arpagon__The_Starry_Night_Vincent_van_Gogh_black_background_dia_f94eed6c-4c0a-4d0c-926d-c223be873627.webp" 
                     alt="Creativity - The Starry Night by Vincent van Gogh" 
                     width={500} 
                     height={500} 
@@ -31,7 +31,7 @@ export const ValuesSection = () => {
             <div className="w-1/2">
                 <Image 
                     className="w-full h-auto light:invert" 
-                    src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/banners/transparent/arpagon__teamwork_diagram_outline_an_illustration_on_black_back_e9fc510a-e32a-47a2-afa8-95dce579bb6e.webp" 
+                    src="/assets/images/values/arpagon__teamwork_diagram_outline_an_illustration_on_black_back_e9fc510a-e32a-47a2-afa8-95dce579bb6e.webp" 
                     alt="Team Work"
                     width={500} 
                     height={500} 
@@ -42,7 +42,7 @@ export const ValuesSection = () => {
             <div className="w-1/2">
                 <Image 
                     className="w-full h-auto light:invert" 
-                    src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/banners/transparent/arpagon__tree_090119c8-f80a-40c3-a4de-47a85b0cf8fa.webp" 
+                    src="/assets/images/values/arpagon__tree_090119c8-f80a-40c3-a4de-47a85b0cf8fa.webp" 
                     alt="Our Lab"
                     width={500} 
                     height={500} 
@@ -65,7 +65,7 @@ export const ValuesSection = () => {
             <div className="w-1/2">
                 <Image 
                     className="w-full h-auto light:invert" 
-                    src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/banners/transparent/arpagon__a_white_circle_in_a_black_background_in_the_style_of_m_202bb52a-e176-407f-89f7-486034eefb47.webp" 
+                    src="/assets/images/values/arpagon__a_white_circle_in_a_black_background_in_the_style_of_m_202bb52a-e176-407f-89f7-486034eefb47.webp" 
                     alt="Large Language Models"
                     width={500} 
                     height={500} 
@@ -76,7 +76,7 @@ export const ValuesSection = () => {
             <div className="w-1/2">
                 <Image 
                     className="w-full h-auto light:invert" 
-                    src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/banners/transparent/arpagon__a_white_circle_in_a_black_background_in_the_style_of_m_8bae71ee-4bf3-4264-b4c0-4abee5490957.webp" 
+                    src="/assets/images/values/arpagon__a_white_circle_in_a_black_background_in_the_style_of_m_8bae71ee-4bf3-4264-b4c0-4abee5490957.webp" 
                     alt="Cutting-edge Technology"
                     width={500} 
                     height={500} 
@@ -99,7 +99,7 @@ export const ValuesSection = () => {
             <div className="w-1/2">
                 <Image 
                     className="w-full h-auto light:invert" 
-                    src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/banners/transparent/arpagon__a_white_circle_in_a_black_background_in_the_style_of_m_e666ea74-835f-48af-bdd3-434c3b5ef714.webp" 
+                    src="/assets/images/values/arpagon__a_white_circle_in_a_black_background_in_the_style_of_m_e666ea74-835f-48af-bdd3-434c3b5ef714.webp" 
                     alt="Voice-based applications"
                     width={500} 
                     height={500} 
@@ -110,7 +110,7 @@ export const ValuesSection = () => {
             <div className="w-1/2">
                 <Image 
                     className="w-full h-auto light:invert" 
-                    src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/banners/transparent/arpagon__teamwork_diagram_outline_an_illustration_on_black_back_f4c0c9aa-a6f9-464c-8424-867a13971078.webp" 
+                    src="/assets/images/values/arpagon__teamwork_diagram_outline_an_illustration_on_black_back_f4c0c9aa-a6f9-464c-8424-867a13971078.webp" 
                     alt="Build and collaborate"
                     width={500} 
                     height={500} 

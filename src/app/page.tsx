@@ -21,7 +21,7 @@ export default function Home() {
           >
             By{' '}
             <Image
-              src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/logo/artisanLogo_1690404109154_0.svg"
+              src="artisanLogo_1690404109154_0.svg"
               alt="Artisan Labs Logo"
               // className="dark:invert"
               width={100}
