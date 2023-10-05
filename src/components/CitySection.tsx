@@ -17,7 +17,7 @@ export const CitySection = () => {
                     priority
                 />
             </div>
-            <div className="container md:px-6 absolute bottom-20 left-0 right-0">
+            <div className="container md:px-6 lg:absolute lg:bottom-20 lg:left-0 lg:right-0">
                 <div className="grid items-center">
                 <div className="flex flex-col justify-center space-y-4 text-center">
                     
