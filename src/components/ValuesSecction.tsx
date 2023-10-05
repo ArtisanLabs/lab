@@ -1,10 +1,12 @@
+import Image from 'next/image';
+
 export const ValuesSection = () => {
     return (
       <section>
         <div className="table-auto max-w-2xl">
             <div className="flex flex-row">
             <div className="w-1/2">
-                <img className="w-full h-auto light:invert" src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/banners/transparent/arpagon__The_Starry_Night_Vincent_van_Gogh_black_background_dia_f94eed6c-4c0a-4d0c-926d-c223be873627.webp" alt="Creativity - The Starry Night by Vincent van Gogh" />
+                <Image className="w-full h-auto light:invert" src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/banners/transparent/arpagon__The_Starry_Night_Vincent_van_Gogh_black_background_dia_f94eed6c-4c0a-4d0c-926d-c223be873627.webp" alt="Creativity - The Starry Night by Vincent van Gogh" />
             </div>
             <div className="w-1/2 p-4 flex flex-col items-start justify-center">
                 <h2 className="text-2xl font-semibold mb-2">Creativity</h2>
@@ -21,17 +23,17 @@ export const ValuesSection = () => {
                 </p>
             </div>
             <div className="w-1/2">
-                <img className="w-full h-auto light:invert" src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/banners/transparent/arpagon__teamwork_diagram_outline_an_illustration_on_black_back_e9fc510a-e32a-47a2-afa8-95dce579bb6e.webp" alt="Team Work"/>
+                <Image className="w-full h-auto light:invert" src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/banners/transparent/arpagon__teamwork_diagram_outline_an_illustration_on_black_back_e9fc510a-e32a-47a2-afa8-95dce579bb6e.webp" alt="Team Work"/>
             </div>
             </div>
             <div className="flex flex-row">
             <div className="w-1/2">
-                <img className="w-full h-auto light:invert" src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/banners/transparent/arpagon__tree_090119c8-f80a-40c3-a4de-47a85b0cf8fa.webp" alt="Our Lab"/>
+                <Image className="w-full h-auto light:invert" src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/banners/transparent/arpagon__tree_090119c8-f80a-40c3-a4de-47a85b0cf8fa.webp" alt="Our Lab"/>
             </div>
             <div className="w-1/2 p-4 flex flex-col items-start justify-center">
                 <h2 className="text-2xl font-semibold mb-2">Our Lab</h2>
                 <p className="text-sm opacity-50">
-                At the core of Artisan Labs lies a passion for pioneering conversational technologies. Here, in our meticulously designed hub, we fuse cutting-edge research with holistic principles. Beyond just innovation, we're crafting the future of seamless human-machine dialogue, all while respecting the harmony of nature.
+                At the core of Artisan Labs lies a passion for pioneering conversational technologies. Here, in our meticulously designed hub, we fuse cutting-edge research with holistic principles. Beyond just innovation, we&apos;re crafting the future of seamless human-machine dialogue, all while respecting the harmony of nature.
                 </p>
             </div>
             </div>
@@ -43,12 +45,12 @@ export const ValuesSection = () => {
                 </p>
             </div>
             <div className="w-1/2">
-                <img className="w-full h-auto light:invert" src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/banners/transparent/arpagon__a_white_circle_in_a_black_background_in_the_style_of_m_202bb52a-e176-407f-89f7-486034eefb47.webp" alt="Large Language Models"/>
+                <Image className="w-full h-auto light:invert" src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/banners/transparent/arpagon__a_white_circle_in_a_black_background_in_the_style_of_m_202bb52a-e176-407f-89f7-486034eefb47.webp" alt="Large Language Models"/>
             </div>
             </div>
             <div className="flex flex-row">
             <div className="w-1/2">
-                <img className="w-full h-auto light:invert" src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/banners/transparent/arpagon__a_white_circle_in_a_black_background_in_the_style_of_m_8bae71ee-4bf3-4264-b4c0-4abee5490957.webp" alt="Cutting-edge Technology"/>
+                <Image className="w-full h-auto light:invert" src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/banners/transparent/arpagon__a_white_circle_in_a_black_background_in_the_style_of_m_8bae71ee-4bf3-4264-b4c0-4abee5490957.webp" alt="Cutting-edge Technology"/>
             </div>
             <div className="w-1/2 p-4 flex flex-col items-start justify-center">
                 <h2 className="text-2xl font-semibold mb-2">Cutting-edge Technology</h2>
@@ -61,21 +63,21 @@ export const ValuesSection = () => {
             <div className="w-1/2 p-4 flex flex-col items-start justify-center">
                 <h2 className="text-2xl font-semibold mb-2">Voice-based Applications</h2>
                 <p className="text-sm opacity-50">
-                Transforming the way we connect. With Artisan Labs' voice-based applications, step into an era where conversation is effortless, dynamic, and transcends traditional interfaces. Experience fluidity, precision, and the power of voice in redefining digital interactions.
+                Transforming the way we connect. With Artisan Labs&apos voice-based applications, step into an era where conversation is effortless, dynamic, and transcends traditional interfaces. Experience fluidity, precision, and the power of voice in redefining digital interactions.
                 </p>
             </div>
             <div className="w-1/2">
-                <img className="w-full h-auto light:invert" src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/banners/transparent/arpagon__a_white_circle_in_a_black_background_in_the_style_of_m_e666ea74-835f-48af-bdd3-434c3b5ef714.webp" alt="Voice-based applications"/>
+                <Image className="w-full h-auto light:invert" src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/banners/transparent/arpagon__a_white_circle_in_a_black_background_in_the_style_of_m_e666ea74-835f-48af-bdd3-434c3b5ef714.webp" alt="Voice-based applications"/>
             </div>
             </div>
             <div className="flex flex-row">
             <div className="w-1/2">
-                <img className="w-full h-auto light:invert" src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/banners/transparent/arpagon__teamwork_diagram_outline_an_illustration_on_black_back_f4c0c9aa-a6f9-464c-8424-867a13971078.webp" alt="Build and collaborate"/>
+                <Image className="w-full h-auto light:invert" src="https://github.com/ArtisanLabs/.github/raw/main/profile/assets/images/banners/transparent/arpagon__teamwork_diagram_outline_an_illustration_on_black_back_f4c0c9aa-a6f9-464c-8424-867a13971078.webp" alt="Build and collaborate"/>
             </div>
             <div className="w-1/2 p-4 flex flex-col items-start justify-center">
                 <h2 className="text-2xl font-semibold mb-2">Build and Collaborate</h2>
                 <p className="text-sm opacity-50">
-                Constructing the future, together. At Artisan Labs, collaboration is at our core. We recognize the power of collective intelligence and foster an environment where innovation thrives. Join hands with us, and let's shape the horizon of technology, one idea at a time.
+                Constructing the future, together. At Artisan Labs, collaboration is at our core. We recognize the power of collective intelligence and foster an environment where innovation thrives. Join hands with us, and let&aposs shape the horizon of technology, one idea at a time.
                 </p>
             </div>
             </div>
