@@ -9,7 +9,7 @@ export const DemoSection = () => {
         rel="noopener noreferrer"
         >
         <h2 className={`mb-3 text-2xl font-semibold`}>
-            Artisan Carrer AI{' '}
+            Artisan Career AI{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
             -&gt;
             </span>
