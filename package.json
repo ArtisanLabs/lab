@@ -31,6 +31,6 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.7.2"
+    "@cloudflare/next-on-pages": "^1.8.0"
   }
 }
